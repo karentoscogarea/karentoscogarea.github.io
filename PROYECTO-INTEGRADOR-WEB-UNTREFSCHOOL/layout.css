@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:root{
+    --color--primario:#FC7300;
+    --color--secundario:#1F8A70;
+    --color--terceario:#00425A;
+    --color--cuarto:#181823;
+    --color--quinto:#EFF5F5;
+}
+
+body{
+    background-color: var(--color--quinto);
+}
+
+.header{
+    background-image: url(./multimedia/untrefBackground-img.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding: 40px 10px;
+}
+
+.nav__top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color--cuarto);
+    padding: 1rem;
+}
+
+.nav__list{
+    display: flex;
+    list-style: none;
+    gap: 14rem;
+    /*width: 30%;
+    justify-content: space-evenly;*/
+    color: #fff;
+    cursor: pointer;
+}
+
+.main{
+    /*border: 1px solid red;*/
+    margin: 10 15px 0;
+    padding: 40px 10px;
+    /*width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;*/
+}
+
+.container-sections{
+    width: 70%;
+    justify-content: center;
+    padding: 20px;
+}
+
+.formulary-section{
+   margin: 20px;
+}
+
+.card__body__img{
+    width: 30%;
+    height: 30%;
+}
+
+.card{
+    width: 30%;
+    height: 400px;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.card__formulary__img{
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin: auto;
+    /*transition: all 2s case-in-out;*/
+    box-shadow: 3px 3px 4px #050505;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.card-img:hover{
+    transform: scale(1.1);
+    border: 1px solid #050505;
+}
+
+.card-product-name{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.card-product-descrption{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.footer{
+    /*border: 1px solid red;*/
+    margin: 0 15px;
+    padding: 40px 10px;
+    background-color: var(--color--cuarto);
+}
+
+.footer > p{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.list-social-madia{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.list-social-madia > li > a{
+    text-decoration: none;
+    color: #050505;
+}
+
+.list-social-media > li{
+    display: inline-block;
+    margin: 0 15px;
+}
